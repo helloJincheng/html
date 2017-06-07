@@ -1,0 +1,202 @@
+body{
+	font-family: "Microsoft YaHei",sans-serif;
+}
+.navbar-default{
+	background-color: #fff;
+	border:none;
+	box-shadow: 0px 1px 5px 0px rgba(50,50,50,0.35)
+}
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2B1;
+    height: 70px;
+    line-height:35px;
+}
+.navbar-default .navbar-brand:hover{
+	color: hsl(166, 96%, 31%);
+}
+.navbar-nav>li>a {
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#666;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle{
+    border-color: #40D2B1;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #40D2B1;
+
+}
+.navbar-toggle {
+    margin-top: 18px;
+}
+/*home*/
+#home{
+	margin-top:70px; 
+	background:url("../img/home-bg.jpg") ; 
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	background-size: cover;
+}
+.lvjing{
+	width: 100%;
+	height: 100%;
+	padding: 90px 0;
+	background: rgba(0,0,0,0.7);
+}
+#home h1{
+	font-weight: bold;
+}
+#home p {
+	margin: 20px 0;
+    line-height: 34px;
+}
+/*bbs*/
+#bbs{
+	padding: 80px 0 ;
+	text-align: center;
+}
+#bbs h3{
+	font-weight: bold;
+}
+#bbs img{
+	margin:0 auto;
+}
+#bbs a{
+	color:#212121;
+	text-decoration: none;
+}
+#bbs .col-md-4{
+	padding: 15px;
+}
+#bbs .col-md-4:hover{
+	background: #F1F1F1;
+	padding: 15px;
+	box-shadow: 1px 1px 5px #ccc;
+}
+/*html5和bootstrap*/
+#html5{
+	background: #F8F8F8;
+}
+#html5,#bootstrap{
+	padding: 80px 0;
+}
+#html5 h2,#bootstrap h2{
+	font-weight: bold;
+	margin:15px 0 ;
+}
+#html5 p,#bootstrap p{
+	line-height: 26px;
+}
+#html5 span,#bootstrap span{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	background: #41D2B1;
+	color:#fff;
+	margin-right: 15px;
+}
+/*最新课程*/
+#new-class{
+	padding: 80px 0;
+	background: #F8F8F8;
+	text-align: center;
+}
+#new-class h2{
+	margin-bottom: 50px;  
+	font-weight: bold;
+}
+#new-class .course{
+	height: 100%;
+	background: #fff;
+	margin-top:20px; 
+}
+#new-class img{
+	display: block;
+	margin: 0 auto;
+}
+#new-class a{
+	margin: 20px auto 30px;
+	text-decoration: none;
+	display: block;
+	width: 138px;
+	height: 38px;
+	border:1px solid #40D2B1;
+	transition: all 0.3s;
+	line-height: 38px;
+	color: #40D2B1;
+}
+#new-class a:hover{
+	background: #41D2B1;
+	color: #fff;
+}
+/*APP*/
+#app{
+	padding: 80px 0 ;
+}
+#app h2{
+	font-weight: bold;
+	margin-bottom:37px; 
+}
+#app a{
+	display:inline-block;
+	width: 140px;
+	height: 35px;
+	text-align: center;
+	margin: 20px 5px; 
+	line-height: 35px;
+	color: #fff;
+	background: #40D2B1;
+	text-decoration: none;
+}
+#app a:hover{
+	background: #08a07e;
+}
+/*练习小麦*/
+#contact{
+	background: url(../img/contact-bg.png);
+	background-size: cover; 
+	color: #fff;
+}
+#contact h2{
+	font-weight: bold;
+}
+#contact p{
+    margin: 24px 0 10px;
+}
+#contact span{
+	margin-right: 13px; 
+}
+#contact input{
+	height: 48px;
+}
+#contact input,#contact textarea{
+	width: 100%;
+    padding:10px;
+    border: none;
+    margin-bottom: 20px; 
+    outline:none;
+    color: #555;
+}
+#contact input[type="submit"]{
+	background: #40D2B1;
+	color: #fff;
+	font-weight: bold;
+}
+#contact input[type="submit"]:hover{
+	background: #08a07e;
+}
+/*底部*/
+footer{
+	text-align: center;
+	padding: 20px;
+}
+
